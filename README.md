@@ -40,17 +40,17 @@ if __name__ == '__main__':
 
 ### How to run app using docker and which port it uses
 
-Docker imaged can be pulled with this command:
+1. Docker imaged can be pulled with this command:
 
 ```
 docker push altwayme/gsom_project:tagname
 ```
 
-where tagname should be the latest verions (v.0.4).
+* Tagname should indicate the latest verions (e.g. "v.0.4").
 
 ---
 
-After that application can be started with this command:
+2. After that application can be started with this command:
 
 ```
 sudo docker run --network host -d altwayme/gsom_project:v.0.4
