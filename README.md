@@ -1,10 +1,10 @@
-# Information about source data and some statistics (maybe plots, tables, images)
+### Information about source data and some statistics (maybe plots, tables, images)
 
-# Information about your model, choosen framework, hyperparams) 
+### Information about your model, choosen framework, hyperparams) 
 
-# How to install instructions and run your app with virtual environment
+### How to install instructions and run your app with virtual environment
 
-# Information about Dockerfile and describe it’s content
+### Information about Dockerfile and describe it’s content
 
 Dockerfile stores all the necessary information for docker image.
 
@@ -21,7 +21,7 @@ RUN pip3 install -r requirements.txt (All the required libraries are installed f
 CMD python3 app.py (Docker will run the only process with price predicitons for rent)
 ```
 
-# How to open the port in your remote VM
+### How to open the port in your remote VM
 
 Port 5444 is used by default. 
 
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     app.run(debug=True, **port=5444**, host='0.0.0.0')
 ```
 
-# How to run app using docker and which port it uses
+### How to run app using docker and which port it uses
 
 The web-service can be started with the
 
