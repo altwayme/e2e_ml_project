@@ -48,6 +48,8 @@ docker push altwayme/gsom_project:tagname
 
 where tagname should be the latest verions (v.0.4).
 
+---
+
 After that application can be started with this command:
 
 ```
