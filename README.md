@@ -2,9 +2,10 @@
 
 ##### Data Source:
 
-The data used for the model in thi repository is from Yandex.Realty, specifically for real estate listings for apartments in St. Petersburg and Leningrad Oblast. The data spans from 2016 to mid-August 2018.
+The data used for the model in this repository is from Yandex.Realty, specifically for real estate listings for apartments in St. Petersburg and Leningrad Oblast. The data spans from 2016 to mid-August 2018.
 
-Columns: `offer_id`, `first_day_exposition`, `last_day_exposition`, `last_price`, `floor`, `open_plan`, `rooms`, `studio`, `area`, `kitchen_area`, `living_area`, `agent_fee`, `renovation`, `offer_type`, `category_type`, `unified_address`, `building_id`
+- Total number of entries before data cleaning: `198257`
+- Columns: `offer_id`, `first_day_exposition`, `last_day_exposition`, `last_price`, `floor`, `open_plan`, `rooms`, `studio`, `area`, `kitchen_area`, `living_area`, `agent_fee`, `renovation`, `offer_type`, `category_type`, `unified_address`, `building_id`
 
 ##### Example of Data in Table
 
@@ -25,10 +26,11 @@ Columns: `offer_id`, `first_day_exposition`, `last_day_exposition`, `last_price`
 Detected and removed outliers from rent data where prices were unrealistic.
 Example: Removed rent prices over 1 million RUB as they were considered user input errors.
 
-#####
+##### Correlation Matrix of Features
 
+![Picture](/pictures/correlation_heatmap.png)
 
-### II. Information about Mdel, Choosen Framework, Hyperparameters
+### II. Information about Model, Choosen Framework, Hyperparameters
 
 ##### Model Information
 
