@@ -1,8 +1,8 @@
-### Information about source data and some statistics (maybe plots, tables, images)
+### I. Information about source data and some statistics (maybe plots, tables, images)
 
 
 
-### Information about Mdel, Choosen Framework, Hyperparameters
+### II. Information about Mdel, Choosen Framework, Hyperparameters
 
 ##### Model Information
 
@@ -41,7 +41,7 @@ This project involves predicting real estate prices in St. Petersburg using hist
 The trained model and the scalers for the features and target variable were saved using `joblib` for future use in predictions.
 
 
-### How to run the App with Virtual Environment
+### III. How to run the App with Virtual Environment
 
 1. To run the app with the virtual environment you should first setup virtual environment and activate it by executions of these commands: 
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-### Information about Dockerfile and Description of it’s Content
+### IV. Information about Dockerfile and Description of it’s Content
 
 Dockerfile stores all the necessary information for docker image.
 
@@ -79,7 +79,7 @@ RUN pip3 install -r requirements.txt (All the required libraries are installed f
 CMD python3 app.py (Docker will run the only process with price predicitons for rent)
 ```
 
-### How to open the Port in remote VM
+### V. How to open the Port in remote VM
 
 Port 5444 is used by default. 
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
     app.run(debug=True, **port=5444**, host='0.0.0.0')
 ```
 
-### How to run the App using Docker
+### V. How to run the App using Docker
 
 1. Docker imaged can be pulled with this command:
 
