@@ -1,8 +1,31 @@
 ### Information about source data and some statistics (maybe plots, tables, images)
 
-### Information about your model, choosen framework, hyperparams) 
+
+
+### Information about your model, choosen framework, hyperparameters
+
+
 
 ### How to install instructions and run your app with virtual environment
+
+1. To run the app with the virtual environment you should first setup virtual environment and activate it by executions of these commands: 
+
+```
+python3 -m venv env
+source venv/bin/activate
+```
+
+2. After that all the necessary libraries can be installed with this command:
+
+```
+pip install -r requirements.txt
+```
+
+3. After successful installation of libraries the application can be started:
+
+```
+python3 app.py
+```
 
 ### Information about Dockerfile and describe it’s content
 
