@@ -7,15 +7,6 @@ The data used for the model in this repository is from Yandex.Realty, specifical
 - Total number of entries before data cleaning: `198257`
 - Columns: `offer_id`, `first_day_exposition`, `last_day_exposition`, `last_price`, `floor`, `open_plan`, `rooms`, `studio`, `area`, `kitchen_area`, `living_area`, `agent_fee`, `renovation`, `offer_type`, `category_type`, `unified_address`, `building_id`
 
-##### Example of Data in Table
-
-| offer_id | first_day_exposition    | last_day_exposition     | last_price | floor | open_plan | rooms | studio | area | kitchen_area | living_area | agent_fee | renovation | offer_type | category_type | unified_address                                                                | building_id       |
-|----------|-------------------------|-------------------------|------------|-------|-----------|-------|--------|------|--------------|-------------|-----------|------------|-------------|---------------|--------------------------------------------------------------------------------|-------------------|
-| 68394    | 3367195771329350213     | 2015-12-18T00:00:00+03:00 | 2016-07-27T00:00:00+03:00 | 5200000.0  | 9     | False     | 2     | False | 55.0 | 10.0         | 32.5        | NaN       | 0.0        | 1.0         | 2.0           | Россия, Санкт-Петербург, улица Олеко Дундича, 36к3                            | 4.864744e+18      |
-| 101435   | 1047607986996746752     | 2016-10-25T00:00:00+03:00 | 2016-11-22T00:00:00+03:00 | 28000.0    | 4     | False     | 2     | False | 50.0 | 10.0         | 30.0        | 50.0      | 3.0        | 2.0         | 2.0           | Россия, Санкт-Петербург, улица Десантников, 26                                | 8.725894e+18      |
-| 45916    | 7340091001892467812     | 2016-03-11T00:00:00+03:00 | 2016-06-28T00:00:00+03:00 | 3500000.0  | 8     | False     | 1     | False | 33.0 | 10.0         | 16.0        | NaN       | 0.0        | 1.0         | 2.0           | Россия, Санкт-Петербург, Октябрьская набережная, 122к1                        | 4.742924e+18      |
-
-
 ##### Median and Mean Rent Prices Calculation:
 
 - Median Rent Price: 25,000 RUB
